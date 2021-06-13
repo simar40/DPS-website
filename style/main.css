@@ -71,7 +71,7 @@ nav .column a:hover {
     text-decoration: underline;
 }
 
-@media (max-width:768px) {
+@media (max-width:768px),(min-width:360px) {
     nav .row {
         flex-wrap: wrap;
     }
@@ -210,7 +210,7 @@ main .img-caption h2 {
     font-weight: bold;
 }
 
-@media (max-width:768px) {
+@media (max-width:768px),(min-width:360px) {
     #section-1 .row {
         flex-direction: column;
     }
@@ -273,7 +273,7 @@ main .img-caption h2 {
     margin-right: 10px;
 }
 
-@media (max-width:768px) {
+@media (max-width:768px),(min-width:360px) {
     #section-3 .row {
         display: block;
     }
@@ -321,7 +321,7 @@ main .img-caption h2 {
     border: 6px solid #ce1212;
 }
 
-@media (max-width:768px) {
+@media (max-width:768px),(min-width:360px) {
     #section-4 .row .img {
         width: 33.33%;
     }
@@ -438,7 +438,7 @@ footer h4 {
 /* section-7 end */
 
 
-@media (max-width:768px) {
+@media (max-width:768px),(min-width:360px) {
     #footer {
         display: block;
     }
